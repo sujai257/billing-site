@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container-fluid" style="border: 1px solid #090909">
+      <div class="row">
+        <div class="col-12 c1">
+          <div class="row">
+            <div class="col-12 pr-0 pl-0">
+              <header><b>SALES BILL</b></header>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-8">
+              <div class="row">
+                <div class="col-12 pl-0 pr-0 header-input">
+                  <input
+                    type="text"
+                    name="input_box_1"
+                    id="input_box_1"
+                    value="Input Box"
+                  />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 container">
+                  <div class="row">
+                    <div class="col-4 pl-0 pr-0">
+                      <input
+                        type="text"
+                        name="product_name"
+                        id="product_name"
+                        value="Item name 1"
+                      />
+                    </div>
+                    <div class="col-2 pr-0 pl-0">
+                      <input
+                        type="number"
+                        name="price"
+                        id="price"
+                        value="100"
+                      />
+                    </div>
+                    <div class="col-2 pr-0 pl-0">
+                      <input
+                        type="number"
+                        name="quantity"
+                        id="quantity"
+                        value="2"
+                      />
+                    </div>
+                    <div class="col-2 pl-0 pr-0">
+                      <input type="number" name="tax" id="tax" value="10" />
+                    </div>
+                    <div class="col-2 pl-0 pr-0">
+                      <input
+                        type="number"
+                        name="total"
+                        id="total"
+                        value="210"
+                      />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-4 pl-0 pr-0">
+                      <input
+                        type="text"
+                        name="product_name"
+                        id="product_name"
+                        value="Item name 2"
+                      />
+                    </div>
+                    <div class="col-2 pr-0 pl-0">
+                      <input
+                        type="number"
+                        name="price"
+                        id="price"
+                        value="100"
+                      />
+                    </div>
+                    <div class="col-2 pr-0 pl-0">
+                      <input
+                        type="number"
+                        name="quantity"
+                        id="quantity"
+                        value="2"
+                      />
+                    </div>
+                    <div class="col-2 pl-0 pr-0">
+                      <input type="number" name="tax" id="tax" value="10" />
+                    </div>
+                    <div class="col-2 pl-0 pr-0">
+                      <input
+                        type="number"
+                        name="total"
+                        id="total"
+                        value="210"
+                      />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-4 pl-0 pr-0">
+                      <input
+                        type="text"
+                        name="product_name"
+                        id="product_name"
+                        value="Item name 3"
+                      />
+                    </div>
+                    <div class="col-2 pr-0 pl-0">
+                      <input
+                        type="number"
+                        name="price"
+                        id="price"
+                        value="100"
+                      />
+                    </div>
+                    <div class="col-2 pr-0 pl-0">
+                      <input
+                        type="number"
+                        name="quantity"
+                        id="quantity"
+                        value="2"
+                      />
+                    </div>
+                    <div class="col-2 pl-0 pr-0">
+                      <input type="number" name="tax" id="tax" value="10" />
+                    </div>
+                    <div class="col-2 pl-0 pr-0">
+                      <input
+                        type="number"
+                        name="total"
+                        id="total"
+                        value="210"
+                      />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-4 pl-0 pr-0">
+                      <input
+                        type="text"
+                        name="product_name"
+                        id="product_name"
+                        value="Item name 4"
+                      />
+                    </div>
+                    <div class="col-2 pr-0 pl-0">
+                      <input
+                        type="number"
+                        name="price"
+                        id="price"
+                        value="100"
+                      />
+                    </div>
+                    <div class="col-2 pr-0 pl-0">
+                      <input
+                        type="number"
+                        name="quantity"
+                        id="quantity"
+                        value="2"
+                      />
+                    </div>
+                    <div class="col-2 pl-0 pr-0">
+                      <input type="number" name="tax" id="tax" value="10" />
+                    </div>
+                    <div class="col-2 pl-0 pr-0">
+                      <input
+                        type="number"
+                        name="total"
+                        id="total"
+                        value="210"
+                      />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-4 pl-0 pr-0">
+                      <input
+                        type="text"
+                        name="product_name"
+                        id="product_name"
+                        value="Item name 5"
+                      />
+                    </div>
+                    <div class="col-2 pr-0 pl-0">
+                      <input
+                        type="number"
+                        name="price"
+                        id="price"
+                        value="100"
+                      />
+                    </div>
+                    <div class="col-2 pr-0 pl-0">
+                      <input
+                        type="number"
+                        name="quantity"
+                        id="quantity"
+                        value="2"
+                      />
+                    </div>
+                    <div class="col-2 pl-0 pr-0">
+                      <input type="number" name="tax" id="tax" value="10" />
+                    </div>
+                    <div class="col-2 pl-0 pr-0">
+                      <input
+                        type="number"
+                        name="total"
+                        id="total"
+                        value="210"
+                      />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-4 pl-0 pr-0">
+                      <input
+                        type="text"
+                        name="product_name"
+                        id="product_name"
+                        value="Item name 6"
+                      />
+                    </div>
+                    <div class="col-2 pr-0 pl-0">
+                      <input
+                        type="number"
+                        name="price"
+                        id="price"
+                        value="100"
+                      />
+                    </div>
+                    <div class="col-2 pr-0 pl-0">
+                      <input
+                        type="number"
+                        name="quantity"
+                        id="quantity"
+                        value="2"
+                      />
+                    </div>
+                    <div class="col-2 pl-0 pr-0">
+                      <input type="number" name="tax" id="tax" value="10" />
+                    </div>
+                    <div class="col-2 pl-0 pr-0">
+                      <input
+                        type="number"
+                        name="total"
+                        id="total"
+                        value="210"
+                      />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-4 pl-0 pr-0">
+                      <input
+                        type="text"
+                        name="product_name"
+                        id="product_name"
+                        value="Item name 7"
+                      />
+                    </div>
+                    <div class="col-2 pr-0 pl-0">
+                      <input
+                        type="number"
+                        name="price"
+                        id="price"
+                        value="100"
+                      />
+                    </div>
+                    <div class="col-2 pr-0 pl-0">
+                      <input
+                        type="number"
+                        name="quantity"
+                        id="quantity"
+                        value="2"
+                      />
+                    </div>
+                    <div class="col-2 pl-0 pr-0">
+                      <input type="number" name="tax" id="tax" value="10" />
+                    </div>
+                    <div class="col-2 pl-0 pr-0">
+                      <input
+                        type="number"
+                        name="total"
+                        id="total"
+                        value="210"
+                      />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-4 pl-0 pr-0">
+                      <input
+                        type="text"
+                        name="product_name"
+                        id="product_name"
+                        value="Item name 8"
+                      />
+                    </div>
+                    <div class="col-2 pr-0 pl-0">
+                      <input
+                        type="number"
+                        name="price"
+                        id="price"
+                        value="100"
+                      />
+                    </div>
+                    <div class="col-2 pr-0 pl-0">
+                      <input
+                        type="number"
+                        name="quantity"
+                        id="quantity"
+                        value="2"
+                      />
+                    </div>
+                    <div class="col-2 pl-0 pr-0">
+                      <input type="number" name="tax" id="tax" value="10" />
+                    </div>
+                    <div class="col-2 pl-0 pr-0">
+                      <input
+                        type="number"
+                        name="total"
+                        id="total"
+                        value="210"
+                      />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-4 pl-0 pr-0">
+                      <input
+                        type="text"
+                        name="product_name"
+                        id="product_name"
+                        value="Item name 9"
+                      />
+                    </div>
+                    <div class="col-2 pr-0 pl-0">
+                      <input
+                        type="number"
+                        name="price"
+                        id="price"
+                        value="100"
+                      />
+                    </div>
+                    <div class="col-2 pr-0 pl-0">
+                      <input
+                        type="number"
+                        name="quantity"
+                        id="quantity"
+                        value="2"
+                      />
+                    </div>
+                    <div class="col-2 pl-0 pr-0">
+                      <input type="number" name="tax" id="tax" value="10" />
+                    </div>
+                    <div class="col-2 pl-0 pr-0">
+                      <input
+                        type="number"
+                        name="total"
+                        id="total"
+                        value="210"
+                      />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-4 pl-0 pr-0">
+                      <input
+                        type="text"
+                        name="product_name"
+                        id="product_name"
+                        value="Item name 10"
+                      />
+                    </div>
+                    <div class="col-2 pr-0 pl-0">
+                      <input
+                        type="number"
+                        name="price"
+                        id="price"
+                        value="100"
+                      />
+                    </div>
+                    <div class="col-2 pr-0 pl-0">
+                      <input
+                        type="number"
+                        name="quantity"
+                        id="quantity"
+                        value="2"
+                      />
+                    </div>
+                    <div class="col-2 pl-0 pr-0">
+                      <input type="number" name="tax" id="tax" value="10" />
+                    </div>
+                    <div class="col-2 pl-0 pr-0">
+                      <input
+                        type="number"
+                        name="total"
+                        id="total"
+                        value="210"
+                      />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-4 pl-0 pr-0">
+                      <input
+                        type="text"
+                        name="product_name"
+                        id="product_name"
+                        value="Item name 11"
+                      />
+                    </div>
+                    <div class="col-2 pr-0 pl-0">
+                      <input
+                        type="number"
+                        name="price"
+                        id="price"
+                        value="100"
+                      />
+                    </div>
+                    <div class="col-2 pr-0 pl-0">
+                      <input
+                        type="number"
+                        name="quantity"
+                        id="quantity"
+                        value="2"
+                      />
+                    </div>
+                    <div class="col-2 pl-0 pr-0">
+                      <input type="number" name="tax" id="tax" value="10" />
+                    </div>
+                    <div class="col-2 pl-0 pr-0">
+                      <input
+                        type="number"
+                        name="total"
+                        id="total"
+                        value="210"
+                      />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-4 pl-0 pr-0">
+                      <input
+                        type="text"
+                        name="product_name"
+                        id="product_name"
+                        value="Item name 12"
+                      />
+                    </div>
+                    <div class="col-2 pr-0 pl-0">
+                      <input
+                        type="number"
+                        name="price"
+                        id="price"
+                        value="100"
+                      />
+                    </div>
+                    <div class="col-2 pr-0 pl-0">
+                      <input
+                        type="number"
+                        name="quantity"
+                        id="quantity"
+                        value="2"
+                      />
+                    </div>
+                    <div class="col-2 pl-0 pr-0">
+                      <input type="number" name="tax" id="tax" value="10" />
+                    </div>
+                    <div class="col-2 pl-0 pr-0">
+                      <input
+                        type="number"
+                        name="total"
+                        id="total"
+                        value="210"
+                      />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-4 pl-0 pr-0">
+                      <input
+                        type="text"
+                        name="product_name"
+                        id="product_name"
+                        value="Item name 13"
+                      />
+                    </div>
+                    <div class="col-2 pr-0 pl-0">
+                      <input
+                        type="number"
+                        name="price"
+                        id="price"
+                        value="100"
+                      />
+                    </div>
+                    <div class="col-2 pr-0 pl-0">
+                      <input
+                        type="number"
+                        name="quantity"
+                        id="quantity"
+                        value="2"
+                      />
+                    </div>
+                    <div class="col-2 pl-0 pr-0">
+                      <input type="number" name="tax" id="tax" value="10" />
+                    </div>
+                    <div class="col-2 pl-0 pr-0">
+                      <input
+                        type="number"
+                        name="total"
+                        id="total"
+                        value="210"
+                      />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-4 pl-0 pr-0">
+                      <input
+                        type="text"
+                        name="product_name"
+                        id="product_name"
+                        value="Item name 14"
+                      />
+                    </div>
+                    <div class="col-2 pr-0 pl-0">
+                      <input
+                        type="number"
+                        name="price"
+                        id="price"
+                        value="100"
+                      />
+                    </div>
+                    <div class="col-2 pr-0 pl-0">
+                      <input
+                        type="number"
+                        name="quantity"
+                        id="quantity"
+                        value="2"
+                      />
+                    </div>
+                    <div class="col-2 pl-0 pr-0">
+                      <input type="number" name="tax" id="tax" value="10" />
+                    </div>
+                    <div class="col-2 pl-0 pr-0">
+                      <input
+                        type="number"
+                        name="total"
+                        id="total"
+                        value="210"
+                      />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-4 pl-0 pr-0">
+                      <input
+                        type="text"
+                        name="product_name"
+                        id="product_name"
+                        value="Item name 15"
+                      />
+                    </div>
+                    <div class="col-2 pr-0 pl-0">
+                      <input
+                        type="number"
+                        name="price"
+                        id="price"
+                        value="100"
+                      />
+                    </div>
+                    <div class="col-2 pr-0 pl-0">
+                      <input
+                        type="number"
+                        name="quantity"
+                        id="quantity"
+                        value="2"
+                      />
+                    </div>
+                    <div class="col-2 pl-0 pr-0">
+                      <input type="number" name="tax" id="tax" value="10" />
+                    </div>
+                    <div class="col-2 pl-0 pr-0">
+                      <input
+                        type="number"
+                        name="total"
+                        id="total"
+                        value="210"
+                      />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-4 pl-0 pr-0">
+                      <input
+                        type="text"
+                        name="product_name"
+                        id="product_name"
+                        value="Item name 16"
+                      />
+                    </div>
+                    <div class="col-2 pr-0 pl-0">
+                      <input
+                        type="number"
+                        name="price"
+                        id="price"
+                        value="100"
+                      />
+                    </div>
+                    <div class="col-2 pr-0 pl-0">
+                      <input
+                        type="number"
+                        name="quantity"
+                        id="quantity"
+                        value="2"
+                      />
+                    </div>
+                    <div class="col-2 pl-0 pr-0">
+                      <input type="number" name="tax" id="tax" value="10" />
+                    </div>
+                    <div class="col-2 pl-0 pr-0">
+                      <input
+                        type="number"
+                        name="total"
+                        id="total"
+                        value="210"
+                      />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-4 pl-0 pr-0">
+                      <input
+                        type="text"
+                        name="product_name"
+                        id="product_name"
+                        value="Item name 17"
+                      />
+                    </div>
+                    <div class="col-2 pr-0 pl-0">
+                      <input
+                        type="number"
+                        name="price"
+                        id="price"
+                        value="100"
+                      />
+                    </div>
+                    <div class="col-2 pr-0 pl-0">
+                      <input
+                        type="number"
+                        name="quantity"
+                        id="quantity"
+                        value="2"
+                      />
+                    </div>
+                    <div class="col-2 pl-0 pr-0">
+                      <input type="number" name="tax" id="tax" value="10" />
+                    </div>
+                    <div class="col-2 pl-0 pr-0">
+                      <input
+                        type="number"
+                        name="total"
+                        id="total"
+                        value="210"
+                      />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-4 pl-0 pr-0">
+                      <input
+                        type="text"
+                        name="product_name"
+                        id="product_name"
+                        value="Item name 18"
+                      />
+                    </div>
+                    <div class="col-2 pr-0 pl-0">
+                      <input
+                        type="number"
+                        name="price"
+                        id="price"
+                        value="100"
+                      />
+                    </div>
+                    <div class="col-2 pr-0 pl-0">
+                      <input
+                        type="number"
+                        name="quantity"
+                        id="quantity"
+                        value="2"
+                      />
+                    </div>
+                    <div class="col-2 pl-0 pr-0">
+                      <input type="number" name="tax" id="tax" value="10" />
+                    </div>
+                    <div class="col-2 pl-0 pr-0">
+                      <input
+                        type="number"
+                        name="total"
+                        id="total"
+                        value="210"
+                      />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-4 pl-0 pr-0">
+                      <input
+                        type="text"
+                        name="product_name"
+                        id="product_name"
+                        value="Item name 19"
+                      />
+                    </div>
+                    <div class="col-2 pr-0 pl-0">
+                      <input
+                        type="number"
+                        name="price"
+                        id="price"
+                        value="100"
+                      />
+                    </div>
+                    <div class="col-2 pr-0 pl-0">
+                      <input
+                        type="number"
+                        name="quantity"
+                        id="quantity"
+                        value="2"
+                      />
+                    </div>
+                    <div class="col-2 pl-0 pr-0">
+                      <input type="number" name="tax" id="tax" value="10" />
+                    </div>
+                    <div class="col-2 pl-0 pr-0">
+                      <input
+                        type="number"
+                        name="total"
+                        id="total"
+                        value="210"
+                      />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-4 pl-0 pr-0">
+                      <input
+                        type="text"
+                        name="product_name"
+                        id="product_name"
+                        value="Item name 20"
+                      />
+                    </div>
+                    <div class="col-2 pr-0 pl-0">
+                      <input
+                        type="number"
+                        name="price"
+                        id="price"
+                        value="100"
+                      />
+                    </div>
+                    <div class="col-2 pr-0 pl-0">
+                      <input
+                        type="number"
+                        name="quantity"
+                        id="quantity"
+                        value="2"
+                      />
+                    </div>
+                    <div class="col-2 pl-0 pr-0">
+                      <input type="number" name="tax" id="tax" value="10" />
+                    </div>
+                    <div class="col-2 pl-0 pr-0">
+                      <input
+                        type="number"
+                        name="total"
+                        id="total"
+                        value="210"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="row">
+                <div class="col-12 pl-0 pr-0 header-input">
+                  <input
+                    type="text"
+                    name="input_box_2"
+                    id="input_box_2"
+                    value="Input Box"
+                  />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 container"></div>
+              </div>
+            </div>
+            <div class="col-1 pl-0 pr-0 button-container">
+              <button class="custom-button b1">Add customer</button>
+              <button class="custom-button b2">Search product</button>
+              <button class="custom-button b3">Points System</button>
+              <button class="custom-button b4">Button 4</button>
+              <button class="custom-button b5">Button 5</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 c2">
+          <div class="row">
+            <div class="col-8">
+              <div class="col-12 pl-0 pr-0">
+                <div
+                  class="row"
+                  style="
+                    height: 32vh;
+                    background-color: #fffefe;
+                    text-align: center;
+                  "
+                >
+                  <div class="col-2">
+                    <div class="row">
+                      <div class="col-12 bh">
+                        <label for="no_of_item">No of Item</label>
+                      </div>
+                      <div class="col-12 bh">
+                        <label for="no_of_quantity">No of Quantity</label>
+                      </div>
+                      <div class="col-12 bh"></div>
+                      <div class="col-12 bh"></div>
+                    </div>
+                  </div>
+                  <div class="col-1">
+                    <div class="row">
+                      <div class="col-12 bh">
+                        <div class="no_of_item">20</div>
+                      </div>
+                      <div class="col-12 bh">
+                        <div class="no_of_quabtity">40</div>
+                      </div>
+                      <div class="col-12 bh"></div>
+                      <div class="col-12 bh"></div>
+                    </div>
+                  </div>
+                  <div class="col-5">
+                    <div class="row">
+                      <div class="col-12 bh">
+                        <label for="gst_summary"> GST SUMMARY</label>
+                      </div>
+                      <div
+                        class="col-12"
+                        style="height: 22.5vh; border: 1px solid #090909"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="col-2">
+                    <div class="row">
+                      <div class="col-12 bh">
+                        <label for="sub_total">Sub Total</label>
+                      </div>
+                      <div class="col-12 bh">
+                        <label for="discount">Discount</label>
+                      </div>
+                      <div class="col-12 bh">
+                        <label for="tax">Tax</label>
+                      </div>
+                      <div class="col-12 bh">
+                        <label for="net_amount">Net Amount</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-2">
+                    <div class="row">
+                      <div class="col-12 bh">
+                        <div class="subtotal">8400</div>
+                      </div>
+                      <div class="col-12 bh">
+                        <div class="discount">200</div>
+                      </div>
+                      <div class="col-12 bh">
+                        <div class="tax">50</div>
+                      </div>
+                      <div class="col-12 bh">
+                        <div class="net_amount">8250</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-3 pl-0 pr-0">
+              <div style="height: 30vh; border: 1px solid #000">
+                <div class=""></div>
+              </div>
+            </div>
+            <div class="col-1"></div>
+          </div>
+        </div>r
+      </div>
+    </div>
+  </body>
+</html>
